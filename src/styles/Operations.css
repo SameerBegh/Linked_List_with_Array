@@ -1,0 +1,152 @@
+.opertion_select,
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opertion_select label,
+.search label {
+  width: 100%;
+  max-width: 200px;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  height: 40px;
+  text-align: end;
+}
+
+.opertion_select select,
+.search select {
+  width: 100%;
+  max-width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn_1,
+.btn_2,
+.btn_3 {
+  width: 190px;
+  padding: 12px 15px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.btn_1 {
+  background-color: rgba(226, 28, 190, 0.786);
+}
+.btn_1:hover {
+  background-color: rgb(206, 69, 19);
+}
+.btn_2 {
+  background-color: blue;
+}
+.btn_2:hover,
+.reset:hover,
+.search_btn:hover {
+  background-color: gold;
+  color: black;
+}
+.btn_3 {
+  background-color: crimson;
+}
+.btn_3:hover {
+  background-color: rgb(207, 34, 109);
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.remove_node {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index_number {
+  width: 100%;
+  max-width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+  font-size: 16px;
+  /* margin-bottom: 20px; */
+}
+
+.index_number::-webkit-outer-spin-button,
+.index_number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.detail_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .opertion_select {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .opertion_select label {
+    margin-bottom: 10px;
+  }
+
+  .Buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .BsLink {
+    transform: rotate(90deg);
+  }
+  .search {
+    flex-direction: column;
+  }
+  .search label {
+    margin-bottom: 10px;
+  }
+}
+.reset,
+.search_btn {
+  width: 100px;
+  padding: 12px 15px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  background-color: blue;
+}

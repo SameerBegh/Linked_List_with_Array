@@ -1,0 +1,6 @@
+.Search_list_box{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px;
+}

@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/utils/Utils", "src/utils/Data.tsx", "src/context/DataContext.tsx", "src/custom/CustomButton.tsx"  ]
 }

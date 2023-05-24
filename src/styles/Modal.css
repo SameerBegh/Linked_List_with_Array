@@ -1,0 +1,106 @@
+.modal_container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  background-color: #fff;
+  color: #111;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  transition: all ease;
+  z-index: 100;
+}
+.modal_form {
+  padding: 15px;
+  width: 100%;
+}
+
+.modal h2 {
+  background-color: blue;
+  color: #fff;
+  padding: 5px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  text-align: center;
+}
+
+.modal_form label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.input_number {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -17px;
+}
+
+.input_number::-webkit-outer-spin-button,
+.input_number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.modal_form select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.modal_buttons {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.modal_button_add,
+.modal_button_cancel {
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid #c2c2c2;
+}
+
+.modal_button_cancel:hover {
+  background-color: red;
+}
+
+.modal_button_add:hover {
+  border: 1px solid #c2c2c2;
+  background-color: rgb(7, 151, 7);
+}
+
+select option {
+  padding: 20px;
+  color: o;
+}
