@@ -17,12 +17,11 @@
   display: flex;
   position: relative;
   width: 97vw;
-  height: 35vh;
+  height: 30vh;
   justify-content: center;
-  align-items: center;
-  margin-top: 10px;
+  align-items:center;
+  margin-top: 50px;
   overflow: scroll;
-  scroll-margin-right: 10px;
 }
 
 .list_container::-webkit-scrollbar {
@@ -214,13 +213,13 @@
 
 @media (max-width: 600px) {
   .title {
-    margin: 0 15px;
+    margin:15px;
   }
   .list_container {
-    height: 45vh;
+    height: 35vh;
     /* overflow: scroll; */
     /* scroll-margin-block-start: 0; */
-    margin: 0px 10px;
+    /* margin: 0px 10px; */
   }
 
   .list_container::-webkit-scrollbar {

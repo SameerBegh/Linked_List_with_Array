@@ -10,21 +10,26 @@ interface ISearchList {
 
 const SearchList: FC<ISearchList> = ({ data }) => {
   return (
-    <>
-      {data?.map((list, index) => {
+    <div className="search">
+      {data?.map((list) => {
         return (
-          <div className="Search_list_box" key={index}>
-            <div className="list_node" style={{ backgroundColor: list?.color }}>
-              <p>{list?.data}</p>
-              <div className="div">
-                <IoIosAddCircle size={24} />
-                <IoRemoveCircle size={24} />
+          <div className="search_list" key={list.id}>
+            <div
+              className="search_list_node"
+              style={{ backgroundColor: list?.color }}
+            >
+              <div className="search_node_data">
+                <p>{list?.data}</p>
+              </div>
+              <div className="search_edit_icon">
+                <IoIosAddCircle size={24} className="CgAdd" />
+                <IoRemoveCircle size={24} className="IoRemoveCircle" />
               </div>
             </div>
           </div>
         );
       })}
-    </>
+    </div>
   );
 };
 

@@ -1,6 +1,42 @@
-.Search_list_box{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 10px;
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search_list {
+  margin: 10px;
+}
+.search_list_node {
+  width: 130px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  background-color: #f6ca1c;
+  font-weight: 600;
+  color: #111;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+.search_node_data {
+  width: 80px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_edit_icon {
+  width: 50px;
+  height: 60px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-left: 4px solid #fff;
+}
+.CgAdd {
+  color: green;
+}
+.IoRemoveCircle {
+  color: red;
 }

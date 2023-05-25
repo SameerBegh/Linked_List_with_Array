@@ -1,8 +1,9 @@
 .nav_container {
   display: flex;
+  justify-content: space-between;
   width: 100vw;
   position: fixed;
-  background-color: #000000;
+  background-color: #111;
   align-items: center;
   height: 70px;
   padding: 15px 30px;
@@ -17,18 +18,26 @@
 }
 
 @media (max-width: 750px) {
+  .nav_container {
+    display: flex;
+
+    background-color: #111;
+    height: 70px;
+    padding: 15px 30px;
+    box-shadow: 5px 2px 5px rgba(128, 128, 128, 0.548);
+    z-index: 100;
+    top: 0;
+    margin: 0;
+  }
   /* Menu Icon */
   .menu_icon {
     display: flex;
-    flex-direction: column;
+    
     gap: 8px;
     padding: 10px;
     margin-right: -10px;
     cursor: pointer;
   }
 
-  .nav_container {
-    position: relative;
-    padding: 15px 20px;
-  }
+
 }
