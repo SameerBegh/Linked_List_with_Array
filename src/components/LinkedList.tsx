@@ -153,7 +153,7 @@ const LinkedList = () => {
           );
         })}
       </div>
-      {Lists?.node?.length !== 0 && <Operation setOpen={setOpen} />}
+      {Lists?.node?.length !== 0 && <Operation setOpen={setOpen}  />}
     </>
   );
 };

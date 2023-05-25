@@ -10,7 +10,7 @@ interface ISearchList {
 
 const SearchList: FC<ISearchList> = ({ data }) => {
   return (
-    <div className="search">
+    <div className="search_div">
       {data?.map((list) => {
         return (
           <div className="search_list" key={list.id}>

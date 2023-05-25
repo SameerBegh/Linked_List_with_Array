@@ -11,6 +11,7 @@
   z-index: 100;
   top: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 .menu_icon {
@@ -20,7 +21,6 @@
 @media (max-width: 750px) {
   .nav_container {
     display: flex;
-
     background-color: #111;
     height: 70px;
     padding: 15px 30px;
@@ -29,15 +29,13 @@
     top: 0;
     margin: 0;
   }
+
   /* Menu Icon */
   .menu_icon {
     display: flex;
-    
     gap: 8px;
     padding: 10px;
     margin-right: -10px;
     cursor: pointer;
   }
-
-
 }

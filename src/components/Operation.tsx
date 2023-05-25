@@ -123,8 +123,6 @@ const Operation: FC<IOperation> = ({ setOpen }) => {
   // Reset Button
   const handleResetList = () => {
     Lists?.setNode([]);
-    setRemove(false);
-    setData(null);
   };
 
   // Reduce Method
