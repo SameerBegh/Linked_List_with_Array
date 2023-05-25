@@ -149,7 +149,6 @@ const Operation: FC<IOperation> = ({ setOpen }) => {
           </p>
         </div>
       </div>
-      {Lists?.node?.length !== 0 && <Operation setOpen={setOpen} />}
       <div className="opertion_select">
         <label htmlFor="opertion">Basic Operation</label>
         <select
