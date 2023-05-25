@@ -64,11 +64,11 @@ const LinkedList = () => {
               <div className="head">
                 <p>Head</p>
               </div>
-              <CgArrowLongRightC size={48} />
+              <CgArrowLongRightC size={48} style={{marginLeft:"-5px"}} />
               <div className="null">
                 <p>Null</p>
               </div>
-              <CgArrowLongLeftC size={48} />
+              <CgArrowLongLeftC size={48} style={{marginRight:"-5px"}}/>
               <div className="tail">
                 <p>Tail</p>
               </div>
